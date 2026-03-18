@@ -71,3 +71,22 @@ def extract_emails(file_path):
         return extract_emails_from_pdf(file_path)
 
     raise ValueError("Unsupported file format")
+
+def extract_companies_from_excel(file_path):
+
+    df = pd.read_excel(file_path, engine="openpyxl")
+
+    companies = []
+
+    for _, row in df.iterrows():
+
+        empresa = str(row.get("empresa", "")).strip()
+        correo = str(row.get("correo", "")).strip()
+
+        if empresa and correo:
+            companies.append({
+                "empresa": empresa,
+                "correo": correo
+            })
+
+    return companies
