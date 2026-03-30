@@ -132,7 +132,8 @@ La app muestra:
 
 ## 📸 Screenshots
 
-<img width="318" height="46" alt="image" src="https://github.com/user-attachments/assets/29d75f7a-08e5-4d2c-a333-de849024fa29" />
+<img width="1300" height="948" alt="image" src="https://github.com/user-attachments/assets/c3254531-ea93-43da-861c-84221c60c05b" />
+
 
 
 
